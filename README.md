@@ -7,4 +7,4 @@
   - Ecommerce site
 
 ## Info
-  - Web development project in 2014 at UNETI
+  - Web development project UNETI univeristy

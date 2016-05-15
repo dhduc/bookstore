@@ -1,0 +1,169 @@
+
+.nav {
+  height: 50px;
+}
+#cssmenu {
+float: left;
+}
+.span8 {
+float: left !important;
+margin-right: 10px !important;
+}
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  font-family: 'Capriola', sans-serif;
+}
+#cssmenu:before,
+#cssmenu:after,
+#cssmenu > ul:before,
+#cssmenu > ul:after {
+  content: '';
+  display: table;
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+  clear: both;
+}
+#cssmenu {
+  zoom: 1;
+  height: 40px;
+  border-radius: 2px;
+  width: 100%;
+}
+#cssmenu ul {
+  height: 40px;
+  background: #314F60;
+}
+#cssmenu ul li {
+  float: left;
+  list-style: none;
+  width: 150px;
+}
+#cssmenu ul li a {
+  display: block;
+  height: 20px;
+  padding: 10px 20px 0;
+  margin: 4px 2px 0;
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+ 
+}
+#cssmenu ul li:first-child a {
+  
+}
+#cssmenu ul li:hover {
+
+}
+#cssmenu ul li a:hover {
+  
+  background: #fff;
+  color: #07c;
+  
+  
+  opacity: 1;
+}
+/* */
+@charset "utf-8";
+/* CSS Document */
+#menu {
+
+}
+#menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  width: 100%;
+  background: #314F60;
+  height: 44px;
+}
+#menu ul li {
+  list-style: none;
+}
+#menu ul li a {
+  text-decoration: none;
+    background: #314F60;
+    display: block;
+    float: left;
+    width: 120px;
+    padding: 12px;
+    text-align: justify;
+    color: white;
+}
+#menu ul li a:hover {
+  background: #1C799E;
+}
+/* Side menu */
+#sidemenu .heading{
+  background-color: #313131 !important;
+}
+#sidemenu table {
+  background-color: #314F60 !important;
+}
+#sidemenu table tr td a{
+  color: white;
+  text-decoration: none;
+}
+#sidemenu table tr td a:hover{
+  background-color: #1C799E;
+}
+#sidemenu #sidemenubar {
+}
+/* doanvu -- Dropdown menu*/
+*{margin:0; padding: 0}
+
+#container {
+	margin: 20px 0px 0px 10px;
+border: 1px solid #686;
+background: #e4e4e3;
+float: left;
+
+}
+
+#container ul {
+float: left;
+list-style: none;
+behavior: url(whateverhover.htc);
+
+}
+
+#container ul li {
+position: relative;
+float: left;
+}
+
+#container li a {
+display: block;
+color: #292929;
+font-weight: bold;
+text-decoration: none;
+padding: .3em 6px;
+}
+
+#container li a:hover {
+color: white;
+background: orange;
+}
+
+#container li ul{
+background: yellow;
+position: absolute;
+display: none;
+width: 20em;
+}
+
+
+#container li:hover ul{
+display: block;
+}
+
+#container ul li ul li {
+	border: 1px solid #686;
+width: 100%;
+}

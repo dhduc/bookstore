@@ -1,0 +1,92 @@
+/* footer */
+.footer {
+	height: 120px;
+}
+.info {
+	height: 120px;
+}
+.info p {
+	font-size: 1.05em;
+	color: #314F60;
+	width: 100px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #07c;
+}
+#grid1 {
+	float: left;
+	width: 33%;
+}
+#grid1 a {
+	margin-left: 10px;
+}
+#grid1 p {
+	margin-left: 10px;
+}
+#grid2 {
+	float: left;
+	width: 33%;
+}
+#grid3 {
+	float: left;
+	width: 33%;
+}
+#grid3 p {
+	margin-right: 20px;
+}
+
+#grid4 p {
+	margin-left: 20px;
+}
+#view {
+	padding-left: 20px;
+}
+.contact {
+	//margin-top: 20px;
+	padding: 10px; 
+	background: #eee;
+}
+#copy {
+	margin-left: 10px;
+}
+#author {
+	float: right;
+	margin-right: 10px;
+}
+
+#grid3 a {
+	color: #07c;
+	height: 20px;
+	vertical-align: middle;
+	margin-right: 10px;
+	padding: 5px;
+}
+#grid3 a:hover {
+	text-decoration: underline;
+}
+.design {
+  color: #07c;
+}
+#grid3 img{
+	width: 32px;
+	height: 32px;
+}
+
+#top {
+	width: 40px;
+	height: 40px;
+}
+
+.scrollToTop{
+	text-align:center; 
+	background: whiteSmoke;
+	font-weight: bold;
+	text-decoration: none;
+	position:fixed;
+	bottom:50px;
+	right:100px;
+	display:none;
+	background: url('images/bg.png');
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}

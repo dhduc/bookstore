@@ -1,0 +1,125 @@
+	@import url("header.css");
+	@import url("menu.css");
+	@import url("main.css");
+	@import url("footer.css");
+	html, body {
+			margin: 0;
+			padding: 0;
+		}
+		body > .navbar {
+			font-size: 13px;
+		}
+		.page {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			margin: 0 150px;
+		}
+		.header {
+			height: 120px;
+			width: inherit;
+			margin-top: 30px;
+		}
+		.grid {
+			float: left;
+			
+		}
+		.logo {
+			width: 300px;
+		}
+		.search {
+			width: 500px;
+			margin-top: 35px;
+		}
+		input.span2 {
+			width: 350px !important;
+		}
+		.user {
+			width: 130px;
+			//float: right;
+			margin-top: 30px;
+			
+		}
+		.cart {
+			margin-top: 37px;
+			float: right;
+
+		}
+		
+		.index {
+			min-width: 300px;
+			max-height: 1500px;
+			margin-bottom: 50px;
+		}
+
+	#wrap {
+	  width: 600px;
+	  margin: 0 10px;
+	}
+
+	.box1 {
+	  padding: 25px;
+	  background-color: #F9F9F9;
+	  border-radius: 5px;
+	  box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	}
+
+	.form {
+	  margin: auto;
+	}
+
+	input, textarea {  
+	  width: 200px;
+	  padding: 9px;
+	  outline: 0;  
+	  border: solid 1px #E5E5E5;      
+	  background-color: #FFFFFF;
+	  box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;      
+	}
+
+	textarea#text {   
+	  width: 530px; 
+	  max-width: 530px; 
+	  height: 150px; 
+	  line-height: 150%;
+	  font-size: 14px;
+	  color: #D7D7D7;
+	} 
+
+	input:hover, textarea:hover,  
+	input:focus, textarea:focus {   
+	  border-color: #C9C9C9;   
+	}
+
+	.text textarea:focus {
+	  color: #000;
+	}
+	  
+	.form label {   
+	  margin-left: 10px;   
+	  color: #999999;   
+	}  
+	  
+	.submit input {  
+	  width: 100px;  
+	  padding: 9px 15px;    
+	  font-size: 14px;  
+	  color: #FFFFFF;
+	  background-color: #11A7F2;
+	  border: 0;  
+	  border-radius: 2px;
+	}
+
+	.submit input:hover {
+	  cursor: pointer;
+	}
+
+	#preview{
+	position:absolute;
+	border:1px solid #ccc;
+	background:#333;
+	padding:5px;
+	display:none;
+	color:#fff;
+	}
+	

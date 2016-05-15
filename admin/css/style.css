@@ -1,0 +1,92 @@
+/* */
+.main {
+  min-height: 400px;
+}
+.logo {
+	margin-left: 30px;
+	font-size: 40px;
+}
+.logo a:hover {
+  text-decoration: none;
+}
+#book, #store {
+  font-size: 40px;
+}
+#book {
+  color: #FF6850;
+}
+#store {
+  color: #9A9A9A;
+}
+/* list.php */
+#list {
+    margin-left: 0px;
+  }
+  table {
+    width: 90%;
+  }
+  th {
+    color: #07c;
+    font-weight: bold;
+    
+
+  }
+  table tr td {
+    margin: 20px;
+  }
+  img {
+    width: 20px;
+    height: 20px;
+  }
+  #pagi {
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background: white;
+    color: #07c;
+    text-decoration: none;
+  }
+  #pagi:hover {
+    background: #07c;
+    color: white;
+  }
+/* update.php */
+input[type='text'] {
+  padding: 15px;
+}
+input#name, textarea {
+  width: 500px;
+}
+#cat {
+  width: 100px;
+}
+#status {
+  vertical-align: middle;
+} 
+/* view.php */
+.active a:hover  {
+      color: #555 !important;
+    }
+input[type='text'] {
+  padding: 15px;
+}
+input#name, textarea {
+  width: 500px;
+}
+#thumb {
+  width: 200px;
+  height: 200px;
+}
+#cat {
+  width: 100px;
+}
+#status {
+  vertical-align: middle;
+}    
+
+#table_order tr td {
+    min-width: 30px;
+    max-width: 200px;
+  }

@@ -1,0 +1,85 @@
+.index {
+}
+#new {
+	margin-top: 10px;
+	font-size: 20px;
+	padding: 10px 10px 10px 0;
+	width: 150px;
+  display: overflow;
+	border-bottom: 2px solid #07c;
+}
+#detail {
+	margin-top: 10px;
+	font-size: 20px;
+	padding: 10px 10px 10px 0;
+	width: 250px;
+	border-bottom: 2px solid #07c;
+}
+#post {
+	width: 220px;
+	margin: 10px;
+	float: left;
+  height: 350px;
+}
+#post_info {
+  margin: 0 30px;
+}
+#pagination {
+  display: block;
+  margin: 0 auto;
+  clear: both;
+}
+#thumb {
+  width: 200px;
+  height: 200px;
+}
+#name {
+  font-size: 15px;
+}
+#price {
+  color: #314F60;
+}
+/* pagination */
+ .pagi {
+  clear: both;
+  padding-top: 50px;
+  padding-left: 10px;
+ }
+ #pagi {
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background: white;
+    color: #07c;
+    text-decoration: none;
+  }
+  #pagi:hover {
+    background: #07c;
+    color: white;
+  }
+  #pagi_active {
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background: #07c;
+    color: white;
+    text-decoration: none;
+  }
+/* view */
+.index_view {
+	height: 700px;
+}
+#post_view td {
+  padding-right: 30px;
+}
+#view-thumb {
+  padding-top: 10px;
+}
+#view-thumb img {
+  width: 200px;
+  height: 200px;
+}
